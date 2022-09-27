@@ -1,0 +1,102 @@
+* {
+          margin: 0;
+          padding: 0;
+          box-sizing: 0;
+          font-family: 'Truculenta', sans-serif;
+          font-weight: bold;
+}
+
+body {
+          background-image: url(/img/setup.jpeg);
+          background-attachment:fixed;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+}
+
+nav {
+          width: 900px;
+          margin: auto;
+          background-color: #222d41;
+          font-size: 20px;
+          margin-top: 50px;
+          border: 1px solid white;
+          border-radius: 10px;
+          box-shadow: 0px 2px 5px 0px #bdbdc9;
+}
+
+.menu-horizontal {
+          list-style: none;
+          display: flex;
+          justify-content: space-between;
+}
+
+
+.menu-horizontal li a {
+          display: block;
+          padding: 15px 20px;
+          color: white;
+          text-decoration: none;
+          border-left: 1px solid white;
+          border-right: 1px solid white;
+          box-shadow: 0px 2px 5px 0px #bdbdc9;
+}
+
+.menu-horizontal li .menu-inicio {
+          border-left: none;
+}
+
+.menu-horizontal li .menu-inicio:hover {
+          background-color: #5d8e29;
+          border-bottom-left-radius: 10px;
+          border-top-left-radius: 10px;
+          border-left: none;
+}
+
+.menu-horizontal li .menu-cursos:hover {
+          background-color: #5d8e29;
+}
+
+.menu-horizontal li .menu-proyectos:hover {
+          background-color: #5d8e29;
+}
+
+.menu-horizontal li .menu-contacto {
+          border-right: none;
+}
+
+.menu-horizontal li .menu-contacto:hover {
+          background-color: #5d8e29;
+          border-bottom-right-radius: 10px;
+          border-top-right-radius: 10px;
+          border-right: none;
+}
+
+.menu-inicio:hover {
+          border-top-left-radius: 10px;
+}
+
+
+.menu-vertical {
+          position: absolute;
+          display: none;
+          list-style: none;
+          width: 200px;
+          background-color: #222d41;
+}
+
+.menu-horizontal li:hover .menu-vertical {
+          display: block;
+}
+
+.menu-vertical li:hover {
+          background-color: #891f33;
+}
+
+.menu-vertical li a {
+          display: block;
+          color: white;
+          border: 1px solid white;
+          padding: 15px 15px 15px 20px;
+          text-decoration: none;
+}

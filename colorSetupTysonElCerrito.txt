@@ -1,0 +1,15 @@
+Color setup tyson el cerrito
+
+#222d41 azul oscuro
+
+#826e65 marroncito claro (chipica)
+
+#cdbfbc blanco de la pileta
+
+#a04656 / #891f33 rojo del mantel de la mesa
+
+#bdbdc9 gris del cielo
+
+#6d6a38 / #5d8e29 verde pasto
+
+#35241c marrón ramas
