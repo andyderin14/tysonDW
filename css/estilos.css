@@ -7,15 +7,17 @@
 }
 
 body {
-          background-image: url(../img/setup.jpeg);
+          background-image: url(/img/setup.jpeg);
           background-attachment:fixed;
           background-repeat: no-repeat;
           background-position: center;
           background-size: cover;
+          display: flex;
+          min-height: 100vh;
 }
 
 nav {
-          width: 900px;
+          width: auto;
           margin: auto;
           background-color: #222d41;
           font-size: 20px;
@@ -29,8 +31,8 @@ nav {
           list-style: none;
           display: flex;
           justify-content: space-between;
+          text-align: center;
 }
-
 
 .menu-horizontal li a {
           display: block;
@@ -99,4 +101,31 @@ nav {
           border: 1px solid white;
           padding: 15px 15px 15px 20px;
           text-decoration: none;
+}
+
+@media screen and (max-width: 599px) {
+          .menu-sideBar {
+                    width: 200px;
+                    height: auto;
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    overflow: auto;
+                    margin-top: 160px;
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: 10px;
+          }
+
+          .menu-horizontal {
+                    width: 100%;
+                    display: block;
+                    justify-content: flex-start;
+                    text-align: start;
+                    position: relative;
+          }
+          .menu-vertical {
+                    position: relative;
+                    display: none;
+          }
 }
